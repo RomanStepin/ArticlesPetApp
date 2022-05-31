@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/articlesFragment">
+    <fragment
+        android:id="@+id/articlesFragment"
+        android:name="com.example.articlespetapp.ai.notifications.ArticlesFragment"
+        android:label="articles_fragment"
+        tools:layout="@layout/articles_fragment" />
+</navigation>
